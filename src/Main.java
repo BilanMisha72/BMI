@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         int weightKg = 95;
         double growthMetr = 1.88;
-        int BMI = service.calculate( weightKg, growthMetr );
+        int BMI = service.calculate(weightKg, growthMetr);
         System.out.println(BMI);
 
     }
